@@ -1,0 +1,65 @@
+
+body{
+   background-image: url(./Imgaes/pexels-andre-furtado-1162251.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 95%;
+    background-position: center; 
+}
+
+
+h1{
+    text-align: center;
+    line-height: 100px;
+    color: rgb(25, 0, 255);
+    position: relative;
+    animation: mymove 8s infinite;
+}
+    #cityName {
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes mymove 
+    {
+        from {left: -500px;}
+        to {left: 500px;}
+      }
+
+img{
+    border-radius: 45%;
+    width: 200px;
+    /* align-items: center; */
+    /* padding-left: 50px; */
+    margin-left: 50px;
+    transition: width 2s ;
+   
+   
+}
+img:hover{
+  width: 300px;
+}
+h2{
+    line-height: 50px;
+    padding-left: 8px;
+    color: aqua;
+}
+#sun{
+    padding-left: 79px;
+}
+li{
+    list-style: none;
+    padding-left: 77px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 800;
+color: rgb(0, 0, 0);
+}
+
+.navbar-brand{
+    color: rgb(137, 1, 228);
+  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h6{
+    
+    color: black;
+    font-weight:700;
+}
